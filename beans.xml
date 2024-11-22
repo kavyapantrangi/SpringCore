@@ -1,0 +1,25 @@
+
+
+
+   <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define your beans here -->
+    <bean id="student" class="st.student">
+        <property name="studentName" value="Kavya" />
+        <property name="id" value="25" />
+    </bean>
+    
+    <bean id="kalix" class="st.student">
+        <property name="studentName" value="kalix" />
+        <property name="id" value="24" />
+    </bean>
+
+</beans>
+
+   
+
+
